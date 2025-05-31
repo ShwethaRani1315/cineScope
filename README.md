@@ -55,22 +55,6 @@ This project intentionally uses a raw movie dataset to simulate real-world data 
 
 ✅ Converted inconsistent release year formatting
 
-## 📁 Project Structure
-cinescope/
-│
-├── main.py                # User interaction and control flow
-├── mood_handler.py        # Mood-to-genre logic + fuzzy matching
-├── movie_filter.py        # All filtering functions (genre, keyword, year)
-├── save_favorites.py      # Save recommendations to file
-├── file_loader.py         # Loads and cleans raw movie dataset
-├── data/
-    ├── Movies.csv         # Source data (messy)
-    ├── Reviews.csv        # Source data (messy)
-    ├── CleanMovies.csv    # Cleaned dataset 
-├── notebooks/
-    ├── EDA.ipynb          # Data Cleaning and Wrangling
-└── README.md              # Project documentation
-
 ## 🧑‍💻 Author
 Shwetha Rani
 📫 shwetharani1315@gmail.com
